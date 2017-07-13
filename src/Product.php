@@ -5,9 +5,15 @@
  **/
 class Product
 {
-	/** @Id @Column(type="integer") @GeneratedValue **/
+	/**
+	 * @Id @Column(type="integer") @GeneratedValue
+	 * @var int
+	 **/
 	protected $id;
-	/** @Column(type="string") **/
+	/**
+	 * @Column(type="string")
+	 * @var string
+	 **/
 	protected $name;
 
 	public function getId()
